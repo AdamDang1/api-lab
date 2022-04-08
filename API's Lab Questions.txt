@@ -1,0 +1,45 @@
+﻿API’s Lab
+
+
+1. https://swapi.dev/api/people/4/   (Darth Vader Height)
+
+
+2. https://swapi.dev/api/planets/2/ (Population of planet Alderaan)
+
+
+3. https://swapi.dev/api/starships/10/ (Manufacturer of Millenium Falcon)
+
+
+4. https://swapi.dev/api/people/2/  https://swapi.dev/api/species/2/ (Species CP3O belongs to)
+
+
+5. https://swapi.dev/api/films/1/
+https://swapi.dev/api/films/2/
+https://swapi.dev/api/films/3/
+https://swapi.dev/api/films/4/
+https://swapi.dev/api/films/5/
+https://swapi.dev/api/films/6/ (Title of films Obi-Wan Kenobi was in)
+
+
+6. https://swapi.dev/api/starships/?search=falcon (Search query for Millenium Falcon)
+
+
+SOCIAL MOUNTAIN
+
+
+1. POST accepts a BODY and it expects to accept “text”
+2. The GET request returns an array of objects with the keys: id, text, and date.
+3. https://practiceapi.devmountain.com/api/posts?id=555 (would have to be under “delete” tab on Postman”
+4. https://practiceapi.devmountain.com/api/posts/filter?text=me
+5. https://practiceapi.devmountain.com/api/posts/
+{
+    "text": "Adam Dang"
+}
+6. https://practiceapi.devmountain.com/api/posts?id=813
+{
+    "text": "Orange"
+}
+7. https://practiceapi.devmountain.com/api/posts/filter?text=blue
+8. application/json; charset=utf-8
+9. The HTTP 409 Conflict response status code indicates a request conflict with the current state of the target resource. For example, you may get a 409 response when uploading a file that is older than the existing one on the server, resulting in a version control conflict.
+10. It sens back the entire array because I believe there’s no filter method being called into the query search.
